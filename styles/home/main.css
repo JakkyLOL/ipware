@@ -1,0 +1,1407 @@
+body {
+  background-image: linear-gradient(to right, #0aa2aa, #14595e);
+}
+
+.bc0 {
+  z-index: 5;
+  position: absolute;
+  top: 85%;
+  background-image: linear-gradient(#465858, #1C1C1C);
+  padding: 3% 50%;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  [class="bc0"] {
+    z-index: 4;
+  }
+}
+
+.bc1 {
+  z-index: 4;
+  position: absolute;
+  top: 95%;
+  background-color: #1C1C1C;
+  padding: 8% 50%;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  [class="bc1"] {
+    z-index: 0;
+    position: absolute;
+    top: 95%;
+    padding: 13% 50%;
+  }
+}
+
+.ipw1 {
+  z-index: 4;
+  position: absolute;
+  top: 122%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Montserrat";
+  font-size: 45px;
+  font-weight:bold;
+  text-shadow: 5px 5px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .ipw1 {
+    z-index: 4;
+    position: absolute;
+    top: 122%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight:bold;
+    text-shadow: 5px 5px #000000;
+  }
+}
+
+.ipw2 {
+  z-index: 10;
+  position: absolute;
+  top: 113%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: rgb(224, 224, 224);
+  font-family: "Montserrat";
+  font-size: 25px;
+  text-shadow: 5px 5px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .ipw2 {
+    z-index: 4;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: rgb(224, 224, 224);
+    font-family: "Montserrat";
+    font-size: 10px;
+    text-shadow: 5px 5px #000000;
+  }
+}
+
+.ns1 {
+  z-index: 4;
+  position: absolute;
+  top: 158%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight:bold;
+  text-shadow: 4px 4px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .ns1 {
+    z-index: 4;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight:bold;
+    text-shadow: 2px 2px #000000;
+  }
+}
+
+.ns2 {
+  z-index: 4;
+  position: absolute;
+  top: 168%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: rgb(224, 224, 224);
+  font-family: "Ubuntu";
+  font-size: 25px;
+  text-shadow: 2px 2px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .ns2 {
+    z-index: 4;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: rgb(224, 224, 224);
+    font-family: "Ubuntu";
+    font-size: 12px;
+    text-shadow: 2px 2px #000000;
+    width: 245px;
+    text-align: center;
+  }
+}
+
+.bc2 {
+  position: absolute;
+  top: 180%;
+  background-color: #1C1C1C;
+  padding: 20% 50%;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .bc2 {
+    position: absolute;
+    top: 240%;
+    background-color: #1C1C1C;
+    padding: 210% 50%;
+  }
+}
+
+.sluzba1 {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzba1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.sluzba2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzba2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.sluzba3 {
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzba3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.sluzba4 {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzba4 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.sluzba5 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzba5 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.sluzba6 {
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzba6 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.sluzbatext {
+  position: absolute;
+  top: 49.1%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: rgba(32, 49, 53, 0.671);
+  height: 225px;
+  width: 400px;
+  transition: background-color 0.5s ease 0s;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzbatext {
+    position: absolute;
+    top: 49.1%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgba(32, 49, 53, 0.671);
+    height: 180px;
+    width: 320px;
+    transition: background-color 0.5s ease 0s;
+    text-decoration: none;
+  }
+}
+
+.sluzbatext a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 5px 5px #000000;
+  padding: 90px 90px;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzbatext a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 5px 5px #000000;
+  }
+}
+
+.sluzbaimg {
+  height: 225px;
+  width: 400px;
+  box-shadow: 3px 3px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .sluzbaimg {
+    height: 180px;
+    width: 320px;
+    box-shadow: 3px 3px #000000;
+  }
+}
+
+.sluzbatext:hover {
+  background-color: #0000005d;
+  transition: background-color 0.5s ease 0s;
+}
+
+.bc3 {
+  z-index: 4;
+  position: absolute;
+  top: 340%;
+  background-color: #1C1C1C;
+  padding: 20% 50%;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .bc3 {
+    z-index: 4;
+    position: absolute;
+    top: 1600%;
+    background-color: #1C1C1C;
+    padding: 70% 50%;
+  }
+}
+
+
+
+
+
+.s1 {
+  z-index: 4;
+  position: absolute;
+  top: 315%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight:bold;
+  text-shadow: 4px 4px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .s1 {
+    z-index: 4;
+    position: absolute;
+    top: 1550%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight:bold;
+    text-shadow: 4px 4px #000000;
+  }
+}
+
+.s2 {
+  z-index: 4;
+  position: absolute;
+  top:  325%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: rgb(224, 224, 224);
+  font-family: "Ubuntu";
+  font-size: 25px;
+  text-shadow: 2px 2px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .s2 {
+    z-index: 4;
+    position: absolute;
+    top:  1570%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: rgb(224, 224, 224);
+    font-family: "Ubuntu";
+    font-size: 12px;
+    text-shadow: 2px 2px #000000;
+    width: 250px;
+    text-align: center;
+  }
+}
+
+
+.server1 {
+  position: absolute;
+  top:  50%;
+  left: 33%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #252424;
+  padding: 230px 160px;
+  box-shadow: 5px 5px #000000;
+  transition: top 0.5s ease 0s;
+  transition: background-color 0.5s ease 0s;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .server1 {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #25242400;
+    padding: 0px 160px;
+    box-shadow: 0px 0px #00000000;
+    transition: top 0.5s ease 0s;
+    transition: background-color 0.5s ease 0s;
+  }
+}
+
+.server2 {
+  z-index: 5;
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #0aa2aa;
+  padding: 280px 170px;
+  box-shadow: 5px 5px #000000;
+  transition: top 0.5s ease 0s;
+  transition: background-color 0.5s ease 0s;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .server2 {
+    z-index: 5;
+    position: absolute;
+    top:  50%;
+    left: 65%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #0aa2aa;
+    padding: 180px 110px;
+    box-shadow: 5px 5px #000000;
+    transition: top 0.5s ease 0s;
+    transition: background-color 0.5s ease 0s;
+  }
+}
+
+.server3 {
+  position: absolute;
+  top:  50%;
+  left: 67%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #252424;
+  padding: 250px 160px;
+  box-shadow: 5px 5px #000000;
+  transition: top 0.5s ease 0s;
+  transition: background-color 0.5s ease 0s;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .server3 {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #25242400;
+    padding: 0px 160px;
+    box-shadow: 0px 0px #00000000;
+    transition: top 0.5s ease 0s;
+    transition: background-color 0.5s ease 0s;
+  }
+}
+
+
+.server1:hover {
+  background-color: #2c2c2c;
+  transition: background-color 0.5s ease 0s;
+}
+
+
+.server2:hover {
+  background-color: #0ec6cf;
+  transition: background-color 0.5s ease 0s;
+}
+
+.server3:hover {
+  background-color: #2c2c2c;
+  transition: background-color 0.5s ease 0s;
+}
+
+
+
+.snadpis {
+  color: white;
+  position: absolute;
+  top:  15%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 4px 4px #000000;
+}
+
+.stext1 {
+  color: rgb(211, 211, 211);
+  position: absolute;
+  top:  35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .stext2 {
+    color: rgb(211, 211, 211);
+    position: absolute;
+    top:  45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Ubuntu;
+    font-size: 15px;
+    text-shadow: 2px 2px #000000;
+    width: 220px;
+    text-align: center;
+  }
+}
+
+.stext2 {
+  color: rgb(211, 211, 211);
+  position: absolute;
+  top:  45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+  width: 220px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .stext2 {
+    color: rgb(211, 211, 211);
+    position: absolute;
+    top:  45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Ubuntu;
+    font-size: 15px;
+    text-shadow: 2px 2px #000000;
+    width: 220px;
+    text-align: center;
+  }
+}
+
+.stext3 {
+  color: rgb(211, 211, 211);
+  position: absolute;
+  top:  55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .stext3 {
+    color: rgb(211, 211, 211);
+    position: absolute;
+    top:  55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Ubuntu;
+    font-size: 15px;
+    text-shadow: 2px 2px #000000;
+  }
+}
+
+.stext4 {
+  color: rgb(211, 211, 211);
+  position: absolute;
+  top:  65%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .stext4 {
+    color: rgb(211, 211, 211);
+    position: absolute;
+    top:  65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Ubuntu;
+    font-size: 15px;
+    text-shadow: 2px 2px #000000;
+  }
+}
+
+.stext5 {
+  color: rgb(211, 211, 211);
+  position: absolute;
+  top:  75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .stext5 {
+    color: rgb(211, 211, 211);
+    position: absolute;
+    top:  75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Ubuntu;
+    font-size: 15px;
+    text-shadow: 2px 2px #000000;
+  }
+}
+
+.stext6 {
+  color: rgb(211, 211, 211);
+  position: absolute;
+  top:  85%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .stext6 {
+    color: rgb(211, 211, 211);
+    position: absolute;
+    top:  85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Ubuntu;
+    font-size: 15px;
+    text-shadow: 2px 2px #000000;
+  }
+}
+
+
+.si1 {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 41%;
+  left: 15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 260px;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .si1 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+}
+
+.si2 {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 47%;
+  left: 15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 260px;
+  font-family: Montserrat;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .si2 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 47%;
+    left: 17%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+}
+
+.si3 {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 53%;
+  left: 15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 260px;
+  font-family: Montserrat;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .si3 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 54%;
+    left: 17%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+}
+
+.si4 {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 59%;
+  left: 15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 260px;
+  font-family: Montserrat;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .si4 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 61%;
+    left: 17%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+}
+
+.si5 {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 260px;
+  font-family: Montserrat;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .si5 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 68%;
+    left: 17%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+}
+
+.si6 {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 71%;
+  left: 15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 220px;
+  font-family: Montserrat;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .si6 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 75%;
+    left: 17%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+}
+
+
+.si1:after,
+.si2:after,
+.si3:after,
+.si4:after,
+.si5:after {
+  position: absolute;
+  height: 1px;
+  content: '';
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top: 2px dashed rgba(129, 129, 129, 0.247);
+  left: 0;
+  bottom: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foother {
+  z-index: 8;
+  position: absolute;
+  top: 460%;
+  background-color: #151515;
+  padding: 9% 50%;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .foother {
+    position: absolute;
+    top: 2000%;
+    background-color: #151515;
+    padding: 40% 50%;
+  }
+}
+
+
+
+.fline1 {
+  z-index: 10;
+  position: absolute;
+  top: 460%;
+  width: 100%;
+  height:2px;
+  border-width:0;
+  color:#0ec6cf;
+  background-color:#0ec6cf;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .fline1 {
+    z-index: 10;
+    position: absolute;
+    top: 2000%;
+    width: 100%;
+    height:2px;
+    border-width:0;
+    color:#0ec6cf;
+    background-color:#0ec6cf;
+  }
+}
+
+
+
+.f1 {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight:bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  /* For mobile phones: */
+  .f1 {
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 39%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight:bold;
+  }
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f1 {
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight:bold;
+  }
+}
+
+.f1t1 {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Ubuntu;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f1t1 {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 5px;
+    font-family: Ubuntu;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.f1t1 h1, .f1t1 h2, .f1t1 h3, .f1t1 h4{
+  font-size: 19px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: normal;
+  color: rgb(180, 180, 180);
+  transition: color 0.3s ease 0s;
+  width: 150px;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f1t1 h1, .f1t1 h2, .f1t1 h3, .f1t1 h4 {
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(180, 180, 180);
+    transition: color 0.3s ease 0s;
+    width: 60px;
+  }
+}
+
+
+
+
+.f2 {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight:bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  /* For mobile phones: */
+  .f2 {
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 57%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight:bold;
+  }
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight:bold;
+  }
+}
+
+.f2t1 {
+  position: absolute;
+  top: 55%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Ubuntu;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f2t1 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Ubuntu;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.f2t1 h1, .f2t1 h2, .f2t1 h3, .f2t1 h4, .f2t1 h5{
+  font-size: 19px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: normal;
+  color: rgb(180, 180, 180);
+  transition: color 0.3s ease 0s;
+  width: 150px;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f2t1 h1, .f2t1 h2, .f2t1 h3, .f2t1 h4, .f2t1 h5{
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(180, 180, 180);
+    transition: color 0.3s ease 0s;
+    width: 70px;
+  }
+}
+
+
+
+
+.f4 {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight:bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  /* For mobile phones: */
+  .f4 {
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight:bold;
+  }
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f4 {
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight:bold;
+  }
+}
+
+.f4t1 {
+  position: absolute;
+  top: 58%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Ubuntu;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f4t1 {
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Ubuntu;
+    text-decoration: none;
+  }
+}
+
+.f4t1 h1, .f4t1 h2, .f4t1 h3, .f4t1 h4, .f4t1 h5, .f4t1 h6 {
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: normal;
+  color: rgb(180, 180, 180);
+  transition: color 0.3s ease 0s;
+  width: 150px;
+}
+
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .f4t1 h1, .f4t1 h2, .f4t1 h3, .f4t1 h4, .f4t1 h5, .f4t1 h6 {
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(180, 180, 180);
+    transition: color 0.3s ease 0s;
+    width: 100px;
+  }
+}
+
+.ftext {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+  transition: color 0.3s ease 0s;
+  text-align: center;
+}
+
+.ftext:hover {
+  color: #0ec6cf;
+  transition: color 0.3s ease 0s;
+}
+
+.foother2 {
+  position: absolute;
+  top: 513%;
+  background-color: #1C1C1C;
+  padding: 4% 50%;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .foother2 {
+    z-index: 10;
+    position: absolute;
+    top: 2200%;
+    background-color: #1C1C1C;
+    padding: 10% 50%;
+  }
+}
+
+.fotext1 {
+  z-index: 10;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 19px;
+  color: rgb(180, 180, 180);
+  text-align: center;
+  font-family: Montserrat;
+  text-shadow: 3px 3px #000000;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .fotext1 {
+    z-index: 10;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    width: 200px;
+    text-shadow: 3px 3px #000000;
+  }
+}
+
+.fotext2 {
+  z-index: 10;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 19px;
+  color: rgb(180, 180, 180);
+  text-align: center;
+  font-family: Montserrat;
+  text-shadow: 3px 3px #000000;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  .fotext2 {
+    z-index: 10;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    width: 200px;
+    text-shadow: 3px 3px #000000;
+  }
+}

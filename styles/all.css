@@ -1,0 +1,266 @@
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+  background-color: #1C1C1C;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  header {
+    padding: 75px 50%;
+  }
+}
+
+.nav__links a,
+.overlay__content a {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+
+
+.nav__links li {
+  padding: 0px 13px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #00AFB7;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: #00c1cb00;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  [class="nav__links"] {
+    font-size: 0px;
+    background-color: rgba(43, 43, 43, 0);
+    padding: 0px 0px;
+  }
+}
+
+.mobilemenu-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 250px;
+  background-color: #212529;
+  border-radius: 10px;
+  top: 50px;
+  left: 35%;
+  transition: top 0.3s ease 0s;
+  padding: 30px 0px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 30px 50px;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease 0s;
+  z-index: 5;
+  position: relative;
+  left: 0%;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  color: #00AFB7;
+  transition: color 0.3s ease 0s;
+  z-index: 10;
+}
+
+.show1 {
+  display:block;
+  z-index: 5;
+}
+.headerline1 {
+  width: 100%;
+  height: 3px;
+  border-width:0;
+  background-color:#00AFB7
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile-menu-mainbutton {
+  color: white;
+  font-size: 0px;
+  position: absolute;
+  right: 0%;
+  top: 0px;
+  z-index: 10;
+}
+
+.mobile-m {
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+}
+
+
+
+.mobile-m-content {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: #212529;
+  right: 0%;
+  top: 0%;
+  padding: 380px 150px;
+  height: 550px;
+  width: 500px;
+}
+
+
+
+.mobile-m-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease 0s;
+  z-index: 5;
+  font-family: arial;
+  font-size: 25px;
+  position: relative;
+  left: 25%;
+  top: -260px;
+}
+
+.mobile-m-content a:hover {
+  color: #00AFB7;
+  transition: color 0.3s ease 0s;
+  z-index: 5;
+}
+
+.mobile-show {display:block; z-index: 5; transition: block 0.3s ease 0s;}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  [class="mobile-menu-mainbutton"] {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 10;
+  }
+}
+
+.img1 {
+  height: 90px;
+  width: auto;
+  position: absolute;
+  top: 3px;
+  left: 5%;
+  position: absolute;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 1540px) {
+  /* For mobile phones: */
+  [class="img1"] {
+    height: 70px;
+    width: auto;
+    position: absolute;
+    top: 15px;
+    left: 4%;
+    z-index: 10;
+  }
+}
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  [class="img1"] {
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 5%;
+  }
+}
+
+
+
+@media only screen and (max-width: 999.98px) {
+  /* For mobile phones: */
+  [class="bc-menu"] {
+    background-color: rgba(15, 15, 15, 0);
+    padding: 0px 0px;
+    filter: blur(0px);
+  }
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3b3b3b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00AFB7;
+  transition: background-color 1s ease 0s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #048d94;
+  transition: background-color 1s ease 0s;
+}
