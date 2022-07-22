@@ -39,8 +39,30 @@ body {
     background-image: linear-gradient(#465858, #1C1C1C);
     padding: 3% 50%;
   }
-  
-  @media only screen and (max-width: 999.98px) {
+
+  @media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    .bc0 {
+      z-index: 4;
+      position: absolute;
+      top: 35%;
+      background-image: linear-gradient(#465858, #1C1C1C);
+      padding: 3% 50%;
+    }
+  }
+
+  @media only screen and (max-width: 412px) {
+    /* For mobile phones: */
+    .bc0 {
+      z-index: 4;
+      position: absolute;
+      top: 30%;
+      background-image: linear-gradient(#465858, #1C1C1C);
+      padding: 3% 50%;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
     /* For mobile phones: */
     .bc0 {
       z-index: 4;
@@ -59,8 +81,31 @@ body {
     background-color:#1C1C1C;
     padding: 60% 50%;
   }
-  
+
   @media only screen and (max-width: 999.98px) {
+    /* For mobile phones: */
+    .bc1 {
+      z-index: 3;
+      position: absolute;
+      top: 35%;
+      background-color:#1C1C1C;
+      padding: 700% 50%;
+    }
+  }
+
+
+  @media only screen and (max-width: 412px) {
+    /* For mobile phones: */
+    .bc1 {
+      z-index: 3;
+      position: absolute;
+      top: 30%;
+      background-color:#1C1C1C;
+      padding: 700% 50%;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
     /* For mobile phones: */
     .bc1 {
       z-index: 3;
@@ -70,6 +115,7 @@ body {
       padding: 700% 50%;
     }
   }
+
 
   .nabidka1 {
     z-index: 4;
@@ -1021,7 +1067,19 @@ body {
     padding: 0% 0%;
   }
   
-  @media only screen and (max-width: 999.98px) {
+
+  @media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    .bcmobile {
+      z-index: 0;
+      position: absolute;
+      top: 500%;
+      background-color:#1C1C1C;
+      padding: 350% 50%;
+    }
+  }
+
+  @media only screen and (max-width: 415px) {
     /* For mobile phones: */
     .bcmobile {
       z-index: 0;
@@ -1031,8 +1089,31 @@ body {
       padding: 480% 50%;
     }
   }
-  
-  
+
+
+  @media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    .bcmobile {
+      z-index: 0;
+      position: absolute;
+      top: 500%;
+      background-color:#1C1C1C;
+      padding: 480% 50%;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    /* For mobile phones: */
+    .bcmobile {
+      z-index: 0;
+      position: absolute;
+      top: 500%;
+      background-color:#1C1C1C;
+      padding: 380% 50%;
+    }
+  }
+
+
   
   
   
@@ -1056,7 +1137,17 @@ body {
   padding: 9% 50%;
 }
 
-@media only screen and (max-width: 999.98px) {
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .foother {
+    position: absolute;
+    top: 820%;
+    background-color: #151515;
+    padding: 40% 50%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
   /* For mobile phones: */
   .foother {
     position: absolute;
@@ -1066,6 +1157,36 @@ body {
   }
 }
 
+@media only screen and (max-width: 412px) {
+  /* For mobile phones: */
+  .foother {
+    position: absolute;
+    top: 800%;
+    background-color: #151515;
+    padding: 40% 50%;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  .foother {
+    position: absolute;
+    top: 1000%;
+    background-color: #151515;
+    padding: 40% 50%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+  .foother {
+    position: absolute;
+    top: 865%;
+    background-color: #151515;
+    padding: 40% 50%;
+  }
+}
 
 
 .fline1 {
@@ -1079,7 +1200,21 @@ body {
   background-color:#0ec6cf;
 }
 
-@media only screen and (max-width: 999.98px) {
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .fline1 {
+    z-index: 10;
+    position: absolute;
+    top: 820%;
+    width: 100%;
+    height:2px;
+    border-width:0;
+    color:#0ec6cf;
+    background-color:#0ec6cf;
+  }
+}
+
+@media only screen and (max-width: 415px) {
   /* For mobile phones: */
   .fline1 {
     z-index: 10;
@@ -1093,6 +1228,48 @@ body {
   }
 }
 
+@media only screen and (max-width: 412px) {
+  /* For mobile phones: */
+  .fline1 {
+    z-index: 10;
+    position: absolute;
+    top: 800%;
+    width: 100%;
+    height:2px;
+    border-width:0;
+    color:#0ec6cf;
+    background-color:#0ec6cf;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  .fline1 {
+    z-index: 10;
+    position: absolute;
+    top: 1000%;
+    width: 100%;
+    height:2px;
+    border-width:0;
+    color:#0ec6cf;
+    background-color:#0ec6cf;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+  .fline1 {
+    z-index: 10;
+    position: absolute;
+    top: 865%;
+    width: 100%;
+    height:2px;
+    border-width:0;
+    color:#0ec6cf;
+    background-color:#0ec6cf;
+  }
+}
 
 
 .f1 {
@@ -1400,12 +1577,56 @@ body {
   padding: 4% 50%;
 }
 
-@media only screen and (max-width: 999.98px) {
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .foother2 {
+    z-index: 10;
+    position: absolute;
+    top: 850%;
+    background-color: #1C1C1C;
+    padding: 10% 50%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  /* For mobile phones: */
+  .foother2 {
+    z-index: 10;
+    position: absolute;
+    top: 1035%;
+    background-color: #1C1C1C;
+    padding: 10% 50%;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  /* For mobile phones: */
+  .foother2 {
+    z-index: 10;
+    position: absolute;
+    top: 830%;
+    background-color: #1C1C1C;
+    padding: 10% 50%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
   /* For mobile phones: */
   .foother2 {
     z-index: 10;
     position: absolute;
     top: 1040%;
+    background-color: #1C1C1C;
+    padding: 10% 50%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+  .foother2 {
+    z-index: 10;
+    position: absolute;
+    top: 898%;
     background-color: #1C1C1C;
     padding: 10% 50%;
   }
